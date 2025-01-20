@@ -3,6 +3,8 @@
 // Purpose: Find location in double 2d array of largest value.
 // Citation: Class Lectures 1/13/2025, 1/14/2025, 1/15/2025
 
+// Location Manager Class
+// Wraps our methods for interacting with our Location data class.
 public class LocationManager {
     
     /*
