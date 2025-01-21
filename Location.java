@@ -34,7 +34,7 @@ public class Location {
     }
     
     //setter method that equates the new column to the current column
-    public void setcolumn(int newColumn) {
+    public void setColumn(int newColumn) {
 
         this.column = newColumn;
     
