@@ -8,7 +8,7 @@
 public class LocationManager {
     
     /*
-     * Void Method, find the largest double within a 2d double array.
+     * static void method, find the largest double within a 2d double array.
      * Returns the largest double with XY cordinates wrapped within a Location Class.
      * Parameters:
      *  valueGrid (2d Double Array): our 2d array that we're looking for the largest value in.
@@ -34,5 +34,8 @@ public class LocationManager {
 
         // Return our Location object.
         return largest;
+    }
+
+    public LocationManager() {
     }
 }
