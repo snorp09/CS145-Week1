@@ -42,6 +42,7 @@ public class LocationTest {
             }  // ends nested for loop
         }  // ends for loop
 
+        // Get our largest via the locateLargest method, and then print it out.
         Location biggest = LocationManager.locateLargest(largestNum);
         System.out.printf("Largest value was %.2f, at row %d and column %d\n", biggest.getMaxValue(), biggest.getRow(), biggest.getColumn());
 
