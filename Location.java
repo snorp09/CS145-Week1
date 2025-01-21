@@ -4,35 +4,36 @@ public class Location {
     private int column = 0;
     private double maxValue = 0;
 
-    private int getRow() {
+    public int getRow() {
 
         return this.row;
 
     }
 
-    private int getColumn() {
+    public int getColumn() {
 
         return this.column;
 
     }
-    private double getMaxValue() {
+    public double getMaxValue() {
 
         return this.maxValue;
 
     }
 
-    private void setRow(int newRow) {
+    public void setRow(int newRow) {
 
         this.row = newRow;
     
     }
     
-    private void setcolumn(int newColumn) {
+    public void setcolumn(int newColumn) {
 
         this.column = newColumn;
     
     }
-    private void setMaxValue(double newMaxValue) {
+
+    public void setMaxValue(double newMaxValue) {
 
         this.maxValue = newMaxValue;
     
