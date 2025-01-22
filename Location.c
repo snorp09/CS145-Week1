@@ -83,6 +83,10 @@ double* getNumbsFromString(char* parseStr, int numbCount){
     return numbArr;
 }
 
+// Main Method, entry point.
+// Our parameters are boiler plate C, for taking in cmd arguments. Not used.
+// Prompts the user for the size of the array, and then asks them to populate the values.
+// Once done populating, find the largest within that array.
 int main(int argc, char** argv){
     // Initialize our data, and buffer.
     int rows = 0;
