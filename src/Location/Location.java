@@ -107,8 +107,6 @@ class LocationTest {
     public static void main(String[] args) {
 
         // initializes variables
-        /* Probably create an object from the constructor class */
-        //  {TestClassName} Largest = new {TestClassName()};
         Scanner line = new Scanner(System.in);
         Scanner token = new Scanner(System.in);
         Integer column = 0;
